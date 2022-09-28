@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyToDoList';
+  password:string="";
+  doSomething() : void {
+      alert("I was here!");
+      this.password = "1234wesaY**";
+      $("#exampleInputPassword1").on("click", ()=>{
+        this.password = "1234wesaY**";
+        alert("Kai!!");
+      });
+  }
+
+  
+
+  
+
 }
